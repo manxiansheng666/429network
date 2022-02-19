@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;        ../Drivers/STM32F4xx_HAL_Driver/Inc;        ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;        ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;        ../Drivers/CMSIS/Include;    ../LWIP/App;    ../LWIP/Target;    ../Middlewares/Third_Party/LwIP/src/include;    ../Middlewares/Third_Party/LwIP/system;    ../Middlewares/Third_Party/LwIP/src/include/netif/ppp;    ../Middlewares/Third_Party/LwIP/src/include/lwip;    ../Middlewares/Third_Party/LwIP/src/include/lwip/apps;    ../Middlewares/Third_Party/LwIP/src/include/lwip/priv;    ../Middlewares/Third_Party/LwIP/src/include/lwip/prot;    ../Middlewares/Third_Party/LwIP/src/include/netif;    ../Middlewares/Third_Party/LwIP/src/include/compat/posix;    ../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa;    ../Middlewares/Third_Party/LwIP/src/include/compat/posix/net;    ../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys;    ../Middlewares/Third_Party/LwIP/src/include/compat/stdc;    ../Middlewares/Third_Party/LwIP/system/arch; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F</IncludePath>
+              <IncludePath>../Core/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy; ../Drivers/CMSIS/Device/ST/STM32F4xx/Include; ../Drivers/CMSIS/Include; ../LWIP/App; ../LWIP/Target; ../Middlewares/Third_Party/LwIP/src/include; ../Middlewares/Third_Party/LwIP/system; ../Middlewares/Third_Party/LwIP/src/include/netif/ppp; ../Middlewares/Third_Party/LwIP/src/include/lwip; ../Middlewares/Third_Party/LwIP/src/include/lwip/apps; ../Middlewares/Third_Party/LwIP/src/include/lwip/priv; ../Middlewares/Third_Party/LwIP/src/include/lwip/prot; ../Middlewares/Third_Party/LwIP/src/include/netif; ../Middlewares/Third_Party/LwIP/src/include/compat/posix; ../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa; ../Middlewares/Third_Party/LwIP/src/include/compat/posix/net; ../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys; ../Middlewares/Third_Party/LwIP/src/include/compat/stdc; ../Middlewares/Third_Party/LwIP/system/arch; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F; ..\USER</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -412,6 +412,16 @@
               <FileName>startup_stm32f407xx.s</FileName>
               <FileType>2</FileType>
               <FilePath>startup_stm32f407xx.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>USER</GroupName>
+          <Files>
+            <File>
+              <FileName>tcp_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\tcp_test.c</FilePath>
             </File>
           </Files>
         </Group>
