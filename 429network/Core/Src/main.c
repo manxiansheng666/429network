@@ -89,7 +89,6 @@ int main(void)
   MX_GPIO_Init();
   MX_UART5_Init();
   /* USER CODE BEGIN 2 */
-HAL_GPIO_WritePin(uart5_en_GPIO_Port,uart5_en_Pin,GPIO_PIN_SET);
 
   /* USER CODE END 2 */
 
